@@ -1,0 +1,11 @@
+# O repositório guarda as fotos originais em alta (PNG/JPG) como arquivo-mestre,
+# mas o site só serve os .webp otimizados. Estes ficam fora do deploy para não
+# publicar ~13 MB que nenhuma página usa.
+fotos/*.png
+fotos/*.jpg
+fotos/*.jpeg
+
+# Artes dos serviços: material de divulgação, não é usado pelo site.
+artes/
+
+README.md
